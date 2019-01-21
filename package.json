@@ -1,11 +1,11 @@
 {
   "name": "amazon-cognito-identity-js-node",
-  "description": "Amazon Cognito Identity Provider JavaScript SDK for Node.js",
-  "version": "0.0.3",
-  "author": "Takashi Kaneda",
+  "description": "Amazon Cognito Identity Provider JavaScript SDK for Node.js with a 25mb quota for local storage",
+  "version": "0.0.1",
+  "author": "Takashi Kaneda & Frederick R. Brock",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kndt84/amazon-cognito-identity-js.git"
+    "url": "https://github.com/frederickbrock/amazon-cognito-identity-js-node.git"
   },
   "license": "SEE LICENSE IN LICENSE.txt",
   "licenses": [
