@@ -127,7 +127,7 @@ module.exports = class CognitoUserPool {
   getCurrentUser() {
     const lastUserKey = `CognitoIdentityServiceProvider.${this.clientId}.LastAuthUser`;
 //    const storage = window.localStorage;
-    const storage = new LocalStorage('/tmp/storage');
+      const storage = new LocalStorage('/tmp/storage', 25 * 1024 * 1024);
 
     const lastAuthUser = storage.getItem(lastUserKey);
     if (lastAuthUser) {
